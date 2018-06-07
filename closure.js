@@ -13,7 +13,7 @@ function parent() {
 
 //innerScope();
 
-var parentFunction() = parent;
-var childFuntion() = parentFunction();
+var parentFunction = parent;
+var childFuntion = parentFunction;
 
 childFuntion();
