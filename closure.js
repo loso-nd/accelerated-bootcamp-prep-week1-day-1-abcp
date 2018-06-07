@@ -12,3 +12,5 @@ var outerScope = parent;
 var innerScope = outerScope();
 
 innerScope();
+
+var parentFunction = parent;
