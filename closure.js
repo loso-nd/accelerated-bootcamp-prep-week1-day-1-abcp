@@ -14,3 +14,4 @@ var innerScope = outerScope();
 innerScope();
 
 var parentFunction = parent;
+var childFuntion = parentFunction;
