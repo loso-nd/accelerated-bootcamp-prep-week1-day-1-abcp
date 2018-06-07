@@ -7,13 +7,13 @@ function parent() {
   }
 }
 
-var parentFunction = parent;
+//var outerScope = parent;
 
-var innerScope = outerScope();
+//var innerScope = outerScope();
 
-innerScope();
+//innerScope();
 
-var parentFunction = parent;
-var childFuntion = parentFunction;
+var parentFunction() = parent;
+var childFuntion() = parentFunction();
 
 childFuntion();
