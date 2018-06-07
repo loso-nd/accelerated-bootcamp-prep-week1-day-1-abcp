@@ -15,3 +15,5 @@ innerScope();
 
 var parentFunction = parent;
 var childFuntion = parentFunction;
+
+childFuntion();
